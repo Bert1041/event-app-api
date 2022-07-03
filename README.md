@@ -80,14 +80,9 @@
         return $this->belongsTo(User::class);
     }
 ```
-Blog Post has multiple comments. So we can define the function as comments, and also, we can associate with hasMany(). Eloquent will automatically determine the proper foreign key column on the Commentmodel.
-Laravel is a web applic
+
+A one-to-many relationship is used to define relationships where a single model is the parent to one or more child models.
 
 - A user can have many events so the hasMany() relationship is used in the user model
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
+- A ticket belongs both to a user and an event so the belongsTo() method is used to define the relationships
+- An event can have many tickets but only belong to a user so here both the hasMany() and belongsTo() methods are used
