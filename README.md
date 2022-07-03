@@ -80,9 +80,10 @@
         return $this->belongsTo(User::class);
     }
 ```
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Blog Post has multiple comments. So we can define the function as comments, and also, we can associate with hasMany(). Eloquent will automatically determine the proper foreign key column on the Commentmodel.
+Laravel is a web applic
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
+- A user can have many events so the hasMany() relationship is used in the user model
 - [Powerful dependency injection container](https://laravel.com/docs/container).
 - Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
 - Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
