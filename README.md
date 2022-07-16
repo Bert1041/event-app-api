@@ -88,3 +88,8 @@ A one-to-many relationship is used to define relationships where a single model 
 - A user can have many events so the hasMany() relationship is used in the user model
 - A ticket belongs both to a user and an event so the belongsTo() method is used to define the relationships
 - An event can have many tickets but only belong to a user so here both the hasMany() and belongsTo() methods are used
+
+![IN2025 16_07_2022 15_28_36](https://user-images.githubusercontent.com/57686059/179359280-6ece3a57-f558-429c-a18e-de196bb3987f.png)
+![IN2025 16_07_2022 15_29_51](https://user-images.githubusercontent.com/57686059/179359290-2ce03757-091d-4c11-8d4c-640f1dcdc022.png)
+![IN2025 16_07_2022 15_29_44](https://user-images.githubusercontent.com/57686059/179359332-861bd58f-b1a5-4225-8f69-242616213801.png)
+
