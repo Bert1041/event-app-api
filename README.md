@@ -1,5 +1,7 @@
 ## Event Ticketiing Apllication
 
+link: http://event-api-b0193.herokuapp.com/
+
 ### Database Structure
 
 #### users table
