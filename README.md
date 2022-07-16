@@ -1,4 +1,4 @@
-## Event Ticketiing Apllication
+## Event Ticketing Apllication
 
 link: http://event-api-b0193.herokuapp.com/
 
